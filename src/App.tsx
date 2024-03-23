@@ -239,7 +239,7 @@ function App() {
                 className="absolute lg:-bottom-1 bottom-0 left-0 lg:w-[150px] lg:h-[150px]"
               />
 
-              <p className="text-[#f4f4f4] font-Jakarta text-right text-xl lg:text-[65px] leading-tight">
+              <p className="text-[#f4f4f4] font-Jakarta text-right text-xl lg:text-5xl leading-tight">
                 A world-class active
                 <br className="lg:hidden" /> Accelerator and
                 <br className="lg:hidden" /> Funding
@@ -252,7 +252,7 @@ function App() {
                 <br className="lg:hidden" /> community
               </p>
 
-              <p className="text-[#f4f4f4] font-Jakarta text-xs text-right mt-6 lg:text-xl ">
+              <p className="text-[#f4f4f4] font-Jakarta text-xs text-right mt-6 lg:text-lg ">
                 Fundamentals to create value for the benefit of the Web3 and
                 Blockchain <br className="hidden lg:block" /> world, especially
                 in the
