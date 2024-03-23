@@ -137,7 +137,7 @@ function App() {
               className="animate-bounce hover:cursor-pointer"
               onClick={scrollToElementPorto}
             />
-            <h1 className="font-bold text-2xl text-[#1f1f1f] text-center lg:text-5xl mt-6 font-Inter">
+            <h1 className="font-bold text-2xl text-[#1f1f1f] text-center lg:text-[48px] mt-6 font-Inter leading-tight">
               Also The
               <span className="text-[#2f55ff]"> Largest Web3</span> <br />
               Venture Capital in Indonesia
@@ -450,8 +450,8 @@ function App() {
                   <p className="font-Jakarta text-sm mt-4  text-[#f4f4f4]">
                     The convergence of digital technology <br />
                     and fashion is creating exciting <br />
-                    opportunities within the Web3. <br />
-                    ecosystem
+                    opportunities within the Web3 <br />
+                    ecosystem.
                   </p>
                 </div>
               </div>
@@ -503,7 +503,7 @@ function App() {
                   <p className="font-Jakarta text-sm mt-4  text-[#f4f4f4]">
                     The digital art sector is experiencing a <br />
                     renaissance within the decentralized <br />
-                    environment of Web3
+                    environment of Web3.
                   </p>
                 </div>
               </div>
