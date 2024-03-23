@@ -8,38 +8,38 @@ import sequalLogo from '../assets/sequal_logo.png';
 
 const Footer = () => {
   return (
-    <footer className="bg-[#f4f4f4] mt-20 relative h-[348px] flex items-center justify-center flex-col">
+    <footer className="bg-[#f4f4f4] mt-20 relative h-[348px] flex items-center justify-center flex-col overflow-hidden">
       <img
         src={blackBox}
         alt="black box illu"
-        className="absolute top-0 left-0"
+        className="absolute top-0 left-0 lg:w-[150px] lg:h-[150px]"
       />
       <img
         src={yellowBox}
         alt="yellow box illu"
-        className="absolute bottom-0 left-0"
+        className="absolute bottom-0 right-0 lg:left-0 lg:rotate-180 lg:scale-15`0"
       />
 
       <img
         src={ball}
         alt="blue ball illu"
-        className="absolute top-14 right-0"
+        className="absolute top-14 right-0 lg:-right-10 lg:w-[150px] lg:h-[150px]"
       />
 
       <img
         src={connected}
         alt="connected illu"
-        className="absolute top-20 right-14"
+        className="absolute top-20 right-14 lg:right-40 lg:w-[80px] lg:h-[80px] blue-box-spin"
       />
 
       <img
         src={snowFlake}
         alt="snowflake illu"
-        className="absolute top-16 right-32"
+        className="absolute top-16 right-32 lg:right-80 lg:w-[30px] lg:h-[30px] blue-box-spin"
       />
 
-      <div className="h-full p-6 font-Jakarta flex flex-col items-center justify-center lg:w-full relative lg:flex-row lg:items-end  lg:p-10 lg:px-20">
-        <div className=" lg:w-full">
+      <div className="h-full p-6 font-Jakarta flex flex-col items-center justify-center lg:w-full relative lg:flex-row lg:items-end lg:p-10 lg:px-20 w-full">
+        <div className="w-full">
           <img
             src={sequalLogo}
             alt="sequal logo footer"
@@ -48,9 +48,11 @@ const Footer = () => {
 
           <h5 className="font-bold text-sm mt-4">Address:</h5>
           <p className="text-xs lg:text-sm">
-            Jalan Kertha Lestari, Perumahan Bali <br />
-            Southerland Regency Nomor 3, Kelurahan <br />
-            Sanur, Kecamatan Denpasar Selatan, <br />
+            Jalan Kertha Lestari, Perumahan Bali <br className="lg:hidden" />
+            Southerland <br className="hidden lg:block" /> Regency Nomor 3,
+            Kelurahan <br className="lg:hidden" />
+            Sanur, Kecamatan <br className="hidden lg:block" /> Denpasar
+            Selatan, <br className="lg:hidden" />
             Kota Denpasar, Bali. Indonesia
           </p>
         </div>
