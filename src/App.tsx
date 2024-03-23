@@ -103,7 +103,7 @@ function App() {
             <li></li>
           </ul>
           <div className="relative w-fit mt-24">
-            <h1 className="font-bold text-5xl text-[#f4f4f4] font-Inter lg:text-8xl lg:leading-[105px] ">
+            <h1 className="font-bold text-5xl text-[#f4f4f4] font-Inter lg:text-8xl lg:leading-[105px]">
               We're{' '}
               <span className="underline">
                 <span className="bg-gradient-to-r from-cyan-500 to-[#2f55ff] text-transparent bg-clip-text background-animate">
@@ -327,11 +327,11 @@ function App() {
           <Fade>
             <div className=" lg:flex lg:pt-10 items-center justify-between ">
               <div>
-                <h1 className="text-[#f4f4f4] font-Inter text-4xl font-bold mt-10 lg:text-6xl lg:mt-0">
+                <h1 className="text-[#f4f4f4] font-Inter text-4xl font-bold mt-10 lg:text-6xl">
                   Our Focus
                 </h1>
 
-                <p className="text-[#f4f4f4] font-Jakarta mt-6">
+                <p className="text-[#f4f4f4] font-Jakarta mt-6 mb-10">
                   Over the past two years, our team has been
                   <br className="lg:hidden" /> actively driving the
                   <br className="hidden lg:block" /> advancement of various
@@ -341,13 +341,13 @@ function App() {
                 </p>
               </div>
 
-              <div className="flex items-center justify-center mt-10 lg:mt-0 ">
+              {/* <div className="flex items-center justify-center mt-10 lg:mt-0 ">
                 <img
                   src={blueBox}
                   alt="blue box hero"
                   className="lg:w-[250px] lg:h-[250px] blue-box-spin"
                 />
-              </div>
+              </div> */}
             </div>
           </Fade>
 

@@ -4,6 +4,7 @@ import Hamburger from 'hamburger-react';
 
 // Assets
 import sequalLogo from '../assets/sequal_logo.png';
+import newFile from '../assets/new_file.svg';
 
 type ComponentProps = {
   isOpen: boolean;
@@ -33,7 +34,7 @@ const Navbar: FC<ComponentProps> = (props) => {
           />
         </div>
 
-        <ul className="lg:flex gap-10 font-Jakarta hidden">
+        <ul className="lg:flex gap-10 font-Jakarta hidden items-center justify-center">
           <li
             className="hover:cursor-pointer hover:font-bold hover:underline transition-all duration-300 ease-in-out"
             onClick={props.scrollToElementPorto}
@@ -52,10 +53,15 @@ const Navbar: FC<ComponentProps> = (props) => {
           >
             Our Focus
           </li>
+          <li className="bg-[#1f1f1f] p-2 px-[10px] text-[#f4f4f4] font-medium flex gap-2 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-105 hover:cursor-pointer">
+            {/* <a href="mailto:someone@example.com"></a> */}
+            <a href="https://www.elephantunion.com">Get In Touch</a>
+            <img src={newFile} alt="new file" />
+          </li>
         </ul>
       </div>
       <div
-        className={`h-[158px] bg-[#f4f4f4] p-6 ${
+        className={`h-fit bg-[#f4f4f4] p-6 ${
           props.isOpen ? 'block' : 'hidden'
         }`}
       >
@@ -77,6 +83,11 @@ const Navbar: FC<ComponentProps> = (props) => {
             onClick={props.scrollToElementFocus}
           >
             Our Focus
+          </li>
+          <li className="bg-[#1f1f1f] p-2 px-[10px] text-[#f4f4f4] font-medium flex gap-2 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-105 hover:cursor-pointer w-fit">
+            {/* <a href="mailto:someone@example.com"></a> */}
+            <a href="https://www.elephantunion.com">Get In Touch</a>
+            <img src={newFile} alt="new file" />
           </li>
         </ul>
       </div>

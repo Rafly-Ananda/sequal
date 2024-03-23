@@ -8,7 +8,7 @@ import sequalLogo from '../assets/sequal_logo.png';
 
 const Footer = () => {
   return (
-    <footer className="bg-[#f4f4f4] mt-20 relative h-[230px] lg:h-[300px] flex items-center justify-center flex-col overflow-hidden">
+    <footer className="bg-[#f4f4f4] mt-20 relative h-[250px] lg:h-[300px] flex items-center justify-center flex-col overflow-hidden">
       <img
         src={blackBox}
         alt="black box illu"
@@ -38,7 +38,7 @@ const Footer = () => {
         className="absolute top-16 right-32 lg:right-80 lg:w-[20px] lg:h-[20px] blue-box-spin"
       />
 
-      <div className="h-full p-6 font-Jakarta flex flex-col items-center justify-center lg:w-full relative lg:flex-row lg:items-end lg:p-10 lg:px-20 w-full">
+      <div className="h-full p-6 font-Jakarta flex flex-col items-center justify-end lg:w-full relative lg:flex-row lg:items-end lg:p-10 lg:px-20 w-full">
         <div className="w-full">
           <img
             src={sequalLogo}
@@ -47,7 +47,9 @@ const Footer = () => {
           />
 
           {/* <h5 className="font-bold text-sm mt-4">Address:</h5> */}
-          <p className="font-bold text-sm mt-4 underline">Bali, Indonesia</p>
+          <p className="font-bold text-sm mt-1 lg:mt-4 underline">
+            Bali, Indonesia
+          </p>
           {/* <p className="text-xs lg:text-sm">
             Jalan Kertha Lestari, Perumahan Bali <br className="lg:hidden" />
             Southerland <br className="hidden lg:block" /> Regency Nomor 3,
@@ -57,19 +59,31 @@ const Footer = () => {
             Kota Denpasar, Bali. Indonesia
           </p> */}
 
-          <p className="font-Jakarta text-xs lg:text-sm w-full mt-10">
+          <ul className="w-full flex mt-6 gap-2 text-sm lg:hidden">
+            <li className="hover:font-bold hover:cursor-pointer hover:underline transition-all duration-300 ease-in-out">
+              X
+            </li>
+            <li className="hover:font-bold hover:cursor-pointer hover:underline transition-all duration-300 ease-in-out">
+              LINKEDIN
+            </li>
+            <li className="hover:font-bold hover:cursor-pointer hover:underline transition-all duration-300 ease-in-out">
+              INSTAGRAM
+            </li>
+          </ul>
+
+          <p className="font-Jakarta text-xs lg:text-sm w-full mt-4 lg:mt-10">
             &copy; 2024 SEQUAL. All rights reserved.
           </p>
         </div>
 
-        <ul className="w-full flex flex-col justify-end items-end gap-2">
-          <li className="hover:font-bold hover:cursor-pointer hover:underline transition-all duration-300 ease-in-out">
+        <ul className="hidden lg:flex w-full flex-col justify-end items-end gap-2">
+          <li className="font-semibold hover:font-extrabold hover:cursor-pointer hover:underline transition-all duration-300 ease-in-out">
             X
           </li>
-          <li className="hover:font-bold hover:cursor-pointer hover:underline transition-all duration-300 ease-in-out">
+          <li className="font-semibold hover:font-extrabold hover:cursor-pointer hover:underline transition-all duration-300 ease-in-out">
             LINKEDIN
           </li>
-          <li className="hover:font-bold hover:cursor-pointer hover:underline transition-all duration-300 ease-in-out">
+          <li className="font-semibold hover:font-extrabold hover:cursor-pointer hover:underline transition-all duration-300 ease-in-out">
             INSTAGRAM
           </li>
         </ul>
