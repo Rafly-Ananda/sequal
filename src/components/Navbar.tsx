@@ -55,7 +55,7 @@ const Navbar: FC<ComponentProps> = (props) => {
           </li>
           <li className="bg-[#1f1f1f] p-2 px-[10px] text-[#f4f4f4] font-medium flex gap-2 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-105 hover:cursor-pointer">
             {/* <a href="mailto:someone@example.com"></a> */}
-            <a href="https://www.elephantunion.com">Get In Touch</a>
+            <a href="https://sequal-steel.vercel.app/">Get In Touch</a>
             <img src={newFile} alt="new file" />
           </li>
         </ul>
@@ -86,7 +86,7 @@ const Navbar: FC<ComponentProps> = (props) => {
           </li>
           <li className="bg-[#1f1f1f] p-2 px-[10px] text-[#f4f4f4] font-medium flex gap-2 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-105 hover:cursor-pointer w-fit">
             {/* <a href="mailto:someone@example.com"></a> */}
-            <a href="https://www.elephantunion.com">Get In Touch</a>
+            <a href="https://sequal-steel.vercel.app/">Get In Touch</a>
             <img src={newFile} alt="new file" />
           </li>
         </ul>
