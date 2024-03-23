@@ -142,9 +142,11 @@ function App() {
               <span className="text-[#2f55ff]"> Largest Web3</span> <br />
               Venture Capital in Indonesia
             </h1>
+          </Fade>
 
-            <div className="h-[1px] w-full bg-[#1f1f1f] lg:w-[40%] lg:h-[2px]"></div>
+          <div className="h-[1px] w-full bg-[#1f1f1f] lg:w-[40%] lg:h-[2px]"></div>
 
+          <Fade>
             <p className="font-Jakarta text-center text-sm font-medium lg:text-base">
               Founded in 2022, We have a mission to accelerate
               <br className="hidden lg:block" /> the development of a better
@@ -239,7 +241,7 @@ function App() {
                 className="absolute lg:-bottom-1 bottom-0 left-0 lg:w-[150px] lg:h-[150px]"
               />
 
-              <p className="text-[#f4f4f4] font-Jakarta text-right text-xl md:text-[50px] lg:text-6xl leading-tight">
+              <p className="text-[#f4f4f4] font-Jakarta text-right text-xl lg:text-5xl leading-tight">
                 A world-class active
                 <br className="lg:hidden" /> Accelerator and
                 <br className="lg:hidden" /> Funding
