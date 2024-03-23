@@ -148,7 +148,7 @@ function App() {
 
           <Fade>
             <p className="font-Jakarta text-center text-sm font-medium lg:text-base">
-              Founded in 2022, We have a mission to accelerate
+              We have a mission to accelerate
               <br className="hidden lg:block" /> the development of a better
               financial system & <br className="hidden lg:block" /> real world
               impact.
