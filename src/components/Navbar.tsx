@@ -17,7 +17,7 @@ type ComponentProps = {
 const Navbar: FC<ComponentProps> = (props) => {
   return (
     <nav className="p-6 lg:px-20 fixed w-full z-10">
-      <div className="bg-[#f4f4f4] h-[64px] p-4 flex items-center justify-between drop-shadow-lg">
+      <div className="bg-[#f4f4f4] h-[64px] p-4 px-10 flex items-center justify-between drop-shadow-lg">
         <img
           src={sequalLogo}
           alt="sequal logo"

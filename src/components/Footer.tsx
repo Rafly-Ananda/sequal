@@ -56,11 +56,27 @@ const Footer = () => {
             Selatan, <br className="lg:hidden" />
             Kota Denpasar, Bali. Indonesia
           </p> */}
+
+          <p className="font-Jakarta text-xs lg:text-sm w-full mt-10">
+            &copy; 2024 SEQUAL. All rights reserved.
+          </p>
         </div>
 
-        <p className="font-Jakarta text-xs lg:text-sm w-full absolute bottom-4 left-0 ml-6 lg:static lg:m-0 lg:text-right">
+        <ul className="w-full flex flex-col justify-end items-end gap-2">
+          <li className="hover:font-bold hover:cursor-pointer hover:underline transition-all duration-300 ease-in-out">
+            X
+          </li>
+          <li className="hover:font-bold hover:cursor-pointer hover:underline transition-all duration-300 ease-in-out">
+            LINKEDIN
+          </li>
+          <li className="hover:font-bold hover:cursor-pointer hover:underline transition-all duration-300 ease-in-out">
+            INSTAGRAM
+          </li>
+        </ul>
+
+        {/* <p className="font-Jakarta text-xs lg:text-sm w-full absolute bottom-4 left-0 ml-6 lg:static lg:m-0 lg:text-right">
           &copy; 2024 SEQUAL. All rights reserved.
-        </p>
+        </p> */}
       </div>
     </footer>
   );

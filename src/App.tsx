@@ -241,7 +241,8 @@ function App() {
                 className="absolute lg:-bottom-1 bottom-0 left-0 lg:w-[150px] lg:h-[150px]"
               />
 
-              <p className="text-[#f4f4f4] font-Jakarta text-right text-xl lg:text-[53px] leading-tight">
+              {/* Legacy */}
+              {/* <p className="text-[#f4f4f4] font-Jakarta text-right text-xl lg:text-[53px] leading-tight">
                 A world-class active
                 <br className="lg:hidden" /> Accelerator and
                 <br className="lg:hidden" /> Funding
@@ -252,6 +253,13 @@ function App() {
                 decentralization, <br className="lg:hidden" />
                 equality and strong <br /> independent
                 <br className="lg:hidden" /> community
+              </p> */}
+
+              {/* New */}
+              <p className="text-[#f4f4f4] font-Jakarta text-right text-xl lg:text-[53px] leading-tight">
+                A world-class active Accelerator and Funding Company that
+                prioritizes the character of decentralization, equality and
+                strong independent community
               </p>
 
               <p className="text-[#f4f4f4] font-Jakarta text-xs text-right mt-[48px] lg:text-xl">
@@ -287,8 +295,10 @@ function App() {
 
               <div className="lg:flex items-center justify-center lg:flex-1">
                 <div className="bg-[#f4f4f4] p-6 h-[270px] flex flex-col items-start justify-end gap-4 mt-10 lg:h-full lg:w-full">
-                  <img src={ringIllu} alt="ring illu" />
-                  <p className="lg:text-lg font-Jakarta">
+                  <div className="flex-1 flex items-end">
+                    <img src={ringIllu} alt="ring illu" />
+                  </div>
+                  <p className="lg:text-lg font-Jakarta flex-1">
                     Connecting the Web2-Web3 <br /> world, adhering to the
                     principles <br />
                     of Sustainability.
@@ -296,8 +306,10 @@ function App() {
                 </div>
 
                 <div className="bg-[#2F55FF] lg:h-full lg:w-full p-6 h-[270px] flex flex-col items-start justify-end gap-4 lg:mt-10">
-                  <img src={worldIllu} alt="world illu" />
-                  <p className="text-[#f4f4f4] lg:text-lg font-Jakarta">
+                  <div className="flex-1 flex items-end">
+                    <img src={worldIllu} alt="world illu" />
+                  </div>
+                  <p className="text-[#f4f4f4] lg:text-lg font-Jakarta flex-1">
                     Focusing on Real World <br /> Impact on the business
                     <br />
                     being carried out.
