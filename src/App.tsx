@@ -19,6 +19,7 @@ import focusFashion from './assets/focus_fashion.svg';
 import focusAR from './assets/focus_ar.svg';
 import focusVR from './assets/focus_vr.svg';
 import focusBrainstorm from './assets/focus_brainstorm.svg';
+import sssLogo from './assets/sss_logo_white.png';
 
 // Components
 import Navbar from './components/Navbar';
@@ -183,7 +184,7 @@ function App() {
             <div className="lg:flex items-center justify-center ">
               <div className="grid grid-cols-2 grid-rows-6 border border-[#9f9f9f] mt-10 rounded-xl lg:grid-cols-4 lg:grid-rows-3 lg:w-[80%]">
                 <div className="text-white border-r borde-b border-[#9f9f9f] p-6 flex items-center justify-center">
-                  01
+                  <img src={sssLogo} alt="SSS Logo" className="w-[50%]" />
                 </div>
                 <div className="text-white border-b lg:border-r border-[#9f9f9f] p-6 flex items-center justify-center">
                   02
